@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class NeuraNoteConfig(AppConfig):
+class KnowledgeConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'neura_note'
+    name = 'apps.knowledge'

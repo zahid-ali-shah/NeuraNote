@@ -1,0 +1,17 @@
+<header class="header">
+    <nav>
+        <ul style="list-style: none; display: flex;">
+            <li style="margin-right: 10px;"><a href="/" style="color: white;">Home</a></li>
+            <li style="margin-right: 10px;"><a href="/contact-us/" style="color: white;">Contact Us</a></li>
+            <li style="margin-right: 10px;"><a href="/privacy-policy/" style="color: white;">Privacy Policy</a></li>
+            <li style="margin-right: 10px;"><a href="/terms-of-service/" style="color: white;">Terms</a></li>
+            {% if request.user.is_authenticated %}
+                <li style="margin-right: 10px;"><a href="/workspaces/" style="color: white;">Workspaces</a></li>
+                <li><a href="/logout/" style="color: white;">Logout</a></li>
+            {% else %}
+                <li><a href="/login/" style="color: white;">Login</a></li>
+                <li><a href="/register/" style="color: white;">Register</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</header>

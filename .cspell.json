@@ -1,0 +1,4 @@
+{
+  "words": ["django", "drf", "mptt", "neurahub", "neura"],
+  "ignorePaths": ["**/migrations/**", "**/media/**", "**/static/**"]
+}

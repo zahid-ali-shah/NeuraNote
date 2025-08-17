@@ -1,0 +1,8 @@
+-r base.txt
+django-debug-toolbar==6.0.0
+pytest==8.4.1
+pytest-django==4.11.1
+isort==5.13.2
+black==25.1.0
+pyspellchecker==0.8.3
+uvicorn==0.35.0
